@@ -12,8 +12,8 @@ export default function SearchForm() {
           <span className='font-bold mr-2 '>Buy</span><span className='font-bold ml-2'>Rent</span>
          </div>
          <form className='w-4/5 m-auto flex flex-col items-center gap-2'>
-          <input placeholder='Location' className='text-black w-full pl-3 rounded-lg p-2'/>
-          <input placeholder='Bedrooms' className='text-black w-full pl-3 rounded-lg p-2'/>
+          <input placeholder='Location' className='text-black w-full pl-3 rounded-lg p-2 drop-shadow-2xl'/>
+          <input placeholder='Bedrooms' className='text-black w-full pl-3 rounded-lg p-2 drop-shadow-2xl'/>
           <button type='submit' className='bg-orange-400 p-2 rounded-md w-2/4 mt-3'>Search</button>
          </form>
       </div>
